@@ -1,0 +1,61 @@
+.main-features
+{
+  margin-top: 10px;      
+}
+
+.key
+{
+  margin: 10px;
+}
+
+.description
+{
+  margin: 10px;
+}
+
+.accessType
+{
+  margin: 10px;
+}
+
+.contents-paginator
+{
+	padding-left: 10px;
+}
+
+.contents-paginator ol
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.contents-paginator li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+.contents-paginator span, .contents-paginator a
+{
+	text-decoration: none;
+	padding: 6px 12px;
+	margin: 1px;
+	color: #666;
+}
+
+.contents-paginator a:hover
+{
+	background: #99FFFF;
+	color: #000;
+}
+
+.contents-paginator .pages
+{
+	padding-left: 0px;
+}
+
+.contents-paginator .current
+{
+	background-color: #00CCCC;
+	color: white;
+}

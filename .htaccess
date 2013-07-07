@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule  ^add   /add.php
+RewriteRule  ^key/([-a-zA-Z0-9_]+)$   /key.php?id=$1 [QSA,L]
+RewriteRule  ^tag/(.*)$ /tag.php?tag=$1 [QSA,L]
+</IfModule>
+
+ErrorDocument 404 /error.php
+
+php_flag magic_quotes_gpc Off
